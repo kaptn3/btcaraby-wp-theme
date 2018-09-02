@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -15,6 +15,15 @@
     </div>
   </div>
 </footer>
+<style>
+	body {
+		height: auto !important;
+		padding: 0 !important;
+	}
+	.left {
+		float: none !important;
+	}
+</style>
 <?php wp_footer(); ?>
 </body>
 </html>
